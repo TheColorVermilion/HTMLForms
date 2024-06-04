@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <label for="email">Enter your email:</label>
+      <input type="email" id="emailAddress">
+      <br>
+    <label for="password">Enter your password:</label>
+      <input type="password" id="password">
+      <br>
+    <label for="gitUserame">Enter your Github username:</label>
+      <input type="text" id="username">
+    <fieldset>
+      <Legend>Enter your account type</Legend>
+      <div>
+        <input type="radio" id="accountType1" name="account" value="enterprise"/>
+        <label for="accountType1">Enterprise</label>
+      </div>
+      <div>
+        <input type="radio" id="accountType2" name="account" value="pro"/>
+        <label for="accountType2">Pro</label>
+      </div>
+      <div>
+        <input type="radio" id="accountType3" name="account" value="free"/>
+        <label for="accountType3">Free</label>
+        <br>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Remember me on this device:</legend>
+      <input type="checkbox" id="savelogin"/>
+    </fieldset>
+  </form>
+  <br>
+  <input type="submit" value="login">
+</body>
+</html>
